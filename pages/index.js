@@ -67,6 +67,7 @@ export default function Home({ exploreData, cardsData }) {
   )
 }
 
+// Note: Static Page Rendering. Page will be built only once at deploy time. 
 export const getStaticProps = async () => {
   const exploreData = await fetch('https://links.papareact.com/pyp');
   const exploreDataJson = await exploreData.json();
