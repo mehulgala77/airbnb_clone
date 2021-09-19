@@ -5,7 +5,7 @@ module.exports = {
     ]
   },
   // Note: Adding public API keys in NextJS. 
-  // env: {
-  //   mapbox_key: '<add-your-mapbox-api-key-here>'
-  // }
+  env: {
+    mapbox_key: 'pk.eyJ1IjoibWVodWxnYWxhMDA3IiwiYSI6ImNrYzNjdnZrdzA2NGIyeXMyMDNmdTNzNXQifQ.5Thr2Wf0JVl0Dl4tluTyqQ'
+  }
 }
